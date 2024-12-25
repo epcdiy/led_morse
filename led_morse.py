@@ -65,7 +65,7 @@ def text_to_morse(text):
     return morse
 
 # 输入摩斯电码文本
-morse_text = "--./..-/.-/-./--../..../..-/-.../../.-/-./.-../../.-/-./--./-.--/../.---/../.-/-./.../.-/-./.-../../.-/-."#text_to_morse('GUAN ZHU BIAN LIANG YI JIAN SAN LIAN')
+morse_text = text_to_morse('GUAN ZHU BIAN LIANG YI JIAN SAN LIAN')
 #print(morse_text)
 # 播放摩斯电码
 play_morse_code(morse_text)
