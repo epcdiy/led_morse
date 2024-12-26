@@ -1,2 +1,3 @@
 numpy==2.2.1
 pygame==2.6.1
+pyusb==1.2.1
